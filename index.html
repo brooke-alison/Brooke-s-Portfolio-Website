@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brooke Focht Portfolio</title>
+    <link rel="icon" href="img/faviconB.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body class="body-container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow py-3">
+      <div class="container">
+        <a class="text-black navbar-brand nav-link fs-4" href="#welcome">
+          Brooke Focht
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fs-4 text-black" href="#skills"> Skills </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 text-black" href="#about-me">
+                About Me
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fs-4 text-black" href="#projects">
+                Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Welcome Section -->
+    <section id="welcome">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-6 pt-5 pb-5 mt-5 mb-md-5">
+            <h1 class="px-4 py-5 mx-3 text-center display-5">
+              Hello, I'm Brooke Focht!
+            </h1>
+            <h2 class="p-4 mx-3 text-center fs-3">
+              I am a Computer Scientist currently looking for employment
+              opportunities.
+            </h2>
+            <div
+              class="display-3 d-flex justify-content-center pt-4 mt-3 text-center"
+            >
+              <a href="Brooke_Focht_Resume.pdf" target="_blank" rel="noopener">
+                <i class="bx bxs-file text-dark" title="Resume"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/brooke-focht/"
+                target="_blank"
+                rel="noopener"
+              >
+                <i
+                  class="bx bxl-linkedin-square text-dark"
+                  title="linkedin"
+                ></i>
+              </a>
+              <a
+                href="https://github.com/brooke-alison"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="bx bxl-github text-dark" title="GitHub"></i>
+              </a>
+              <a href="mailto:brfocht@gmail.com" target="_blank" rel="noopener"
+                ><i class="bx bxl-gmail text-dark" title="Email"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 mt-md-5 pt-md-5">
+            <img
+              src="img/welcomeImg.png"
+              alt="img"
+              class="mx-auto d-block rounded-circle h-auto w-75"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="px-5 pt-4 pb-5 mx-4">
+      <div class="container">
+        <h2 class="text-center display-4 pt-5 pb-5">
+          Skills
+          <i
+            id="checkmarkIcon"
+            class="bx bx-badge-check display-5 checkmark-with-space"
+          ></i>
+        </h2>
+
+        <div class="row">
+          <!-- Card for "Coding Languages" -->
+          <div class="col-md-6 pb-5 pb-md-0">
+            <div class="card h-100 bg-transparent p-4">
+              <h3 class="text-center">Coding Languages</h3>
+              <hr />
+              <ul class="text-center list-unstyled">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card for "Technologies" -->
+          <div class="col-md-6 pb-5 pb-md-0">
+            <div class="card h-100 bg-transparent p-4">
+              <h3 class="text-center">Technologies</h3>
+              <hr />
+              <ul class="text-center list-unstyled">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Office 365</li>
+                <li>Visual Studio Code</li>
+                <li>IT Service</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Me -->
+    <section id="about-me" class="px-5 py-5">
+      <div class="container">
+        <h2 class="display-4 text-center pb-5">
+          About Me<i
+            id="aboutMeIcon"
+            class="bx bx-smile display-5 smile-with-space"
+          ></i>
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="img/aboutMeImg.png"
+              alt="img"
+              class="mx-auto rounded-5 d-block h-auto w-75"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3 class="about-me-paragraph fs-5 p-1 p-md-0">
+              Welcome to my portfolio website! I spent three years in college
+              pursuing a teaching career, but my passion for technology and a
+              desire for new horizons led me to transition. I have self-taught
+              myself front-end development skills such as HTML, CSS, and
+              JavaScript, and I've also earned the Microsoft 365 Fundamentals
+              certification. I look forward to enhancing my skills and delving
+              deeper into my passion for technology.
+            </h3>
+
+            <div class="d-flex justify-content-center align-self-center">
+              <a
+                href="https://learn.microsoft.com/en-us/users/brookefocht-4673/credentials/3064c2596e70ca62"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="img/msFundamentalsBadge.png"
+                  title="View my certification"
+                  alt="img"
+                  class="msbadge h-auto pt-2"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="px-5 pb-5 mx-4">
+      <div class="contianer">
+        <h2 class="text-center display-4 pb-5 pt-5 mt-4">
+          Projects
+          <i
+            id="projectsIcon"
+            class="bx bx-folder folder-with-space display-5"
+          ></i>
+        </h2>
+        <div class="row">
+          <!-- Card for "Calculator" -->
+          <div class="col-md-6 pb-5">
+            <div class="card h-100 bg-transparent px-4 pt-4">
+              <h3 class="text-center">Calculator</h3>
+              <hr />
+              <p class="calculator-description">
+                This project is a functional calculator created using front-end
+                technologies. The functionalities include addition, subtraction,
+                multiplication, and devision, while also accommodating decimal
+                numbers.
+              </p>
+              <p class="technologies-used-text-calculator">
+                <strong>Technologies used:</strong> HTML, CSS, Javascript
+              </p>
+              <div class="d-flex justify-content-center align-self-center">
+                <a
+                  href="https://brooke-alison.github.io/Calculator/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                    class="bx bxs-calculator text-dark display-5"
+                    title="Calculator"
+                  ></i>
+                </a>
+                <a
+                  href="https://github.com/brooke-alison/Calculator"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                    class="bx bxl-github text-dark display-5"
+                    title="GitHub Calculator"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card for "Coffee Website" -->
+          <div class="col-md-6 pb-5">
+            <div class="card h-100 bg-transparent p-4">
+              <h3 class="text-center">Coffee Website</h3>
+              <hr />
+              <p>
+                This project is built with HTML for content structure, CSS for
+                styling, and JavaScript for interactive features. It showcases
+                products with an integrated shopping cart and offers a
+                responsive design suitable for all screen sizes.
+              </p>
+              <p><strong>Technologies used:</strong> HTML, CSS, Javascript</p>
+              <div class="d-flex justify-content-center align-self-center">
+                <a
+                  href="https://brooke-alison.github.io/Coffee-Website/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                    class="bx bxs-coffee text-dark display-5"
+                    title="Coffee Website"
+                  ></i
+                ></a>
+                <a
+                  href="https://github.com/brooke-alison/Coffee-Website"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i
+                    class="bx bxl-github text-dark display-5"
+                    title="GitHub Coffee Website"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright text-center">
+        &copy; 2023 Brooke Focht. All rights reserved.
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

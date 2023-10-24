@@ -1,0 +1,40 @@
+body {
+  font-family: "PT Serif";
+  background-color: rgb(236, 241, 243);
+}
+
+/* Welcom Section */
+
+#welcome {
+  background-image: url(img/gradientBackground.png);
+}
+
+/* About Me Section */
+
+.bx-smile {
+  margin-left: 10px;
+}
+.msbadge {
+  width: 140px;
+}
+
+/* Projects Section */
+
+#projects a {
+  padding: 0 0.5rem;
+}
+
+.rotate {
+  animation: spin 1s linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
